@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <title>Tabuada</title>
+    <link rel="stylesheet" href="estiloCal.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Tabuada</h1>
+    </header>
+
+    <section class="conteinerImg">
+        <div id="slider">
+            <img class="selected" src="https://media.istockphoto.com/photos/blackboard-full-of-equations-picture-id154932300" alt="Image1">
+        </div>
+    </section>
+
+
+    <section class="sobreposicao">
+        <div>
+            <p>Número: <input type="number" name="num" id="txtn">
+                <input type="button" value="gerar tabuada" onclick="tabuada()"></p>
+        </div>
+        <div>
+            <select name="tabuada" id="seltab" size="5">//para colocar 10 linhas da tabuda
+            <option>Digite um número acima . . .</option>
+            </select>
+        </div>
+
+    </section>
+    <footer>
+        <P>&copy; Cal 4.0</P>
+    </footer>
+
+    <script src="scriptCal.js "></script>
+
+</body>
+
+</html>
